@@ -1,0 +1,16 @@
+conda install pytorch torchvision torchaudio pytorch-cuda=11.6 -c pytorch -c nvidia
+pip install gym[box2d]
+pip install stable-baselines3[extra]
+pygame
+opencv-python
+matplotlib
+six
+pyglet
+scipy
+conda install -n dqn_openai ipykernel --update-deps --force-reinstall
+
+pip install stable-baselines3
+conda install pytorch torchvision torchaudio pytorch-cuda=11.6 -c pytorch -c nvidia
+conda install swig
+pip install gym[box2d]
+opencv-python
